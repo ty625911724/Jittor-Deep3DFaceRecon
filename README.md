@@ -31,7 +31,7 @@ Then, put the weights in `.\checkpoints\` directory.
 
 ## Quick start
 
-Generate reconstruction obj model of facial images without alignment. The recontruction model is shown by MeshLab.  <br>
+Generate the reconstruction `.obj` model of facial images without alignment. The recontruction model is shown by MeshLab.  <br>
 ```
 python test.py --input_dir ./imgs/align --output_dir ./imgs/output
 ```
@@ -41,7 +41,7 @@ python test.py --input_dir ./imgs/align --output_dir ./imgs/output
 <img src="images/no_align.png" width="200px"/>
 </p>
 
-Generate reconstruction obj model of facial images with alignment. The input image is aligned by dlib and saved. The recontruction model is shown by MeshLab. <br>
+Generate the reconstruction `.obj` model of facial images with alignment. The input image is aligned by dlib. The recontruction model is shown by MeshLab. <br>
 
 ```
 python test.py --input_dir ./imgs/no_align --output_dir ./imgs/output --align
